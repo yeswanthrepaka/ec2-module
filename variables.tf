@@ -6,6 +6,10 @@ variable "environment" {
   default = "dev"
 }
 
+variable "instance_type" {
+  default = "t3.micro"
+}
+
 variable "sg_ids" {
   default = ["sg-076ec9ad23dab2b28"]
 }
@@ -15,5 +19,5 @@ variable "component" {
 }
 
 variable "project" {
-  default = "Roboshop"
+  default = "roboshop"
 }
