@@ -11,7 +11,7 @@ variable "instance_type" {
 }
 
 variable "sg_ids" {
-  default = ["sg-076ec9ad23dab2b28"]
+  default = ["sg-05997a7119396a217"]
 }
 
 variable "component" {
@@ -20,4 +20,9 @@ variable "component" {
 
 variable "project" {
   default = "roboshop"
+}
+
+variable "tags" {
+  type    = map(string)
+  default = {}
 }
